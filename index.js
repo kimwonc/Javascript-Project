@@ -1,3 +1,6 @@
+// React Native에서 불변성을 지키면서
+// 객체와 배열 업데이트 하기위해 filter와 map 함수 사용
+
 // filter
 const numbers = [1, 2, 3, 4];
 const newNumbers = numbers.filter(num => num !== 3);
